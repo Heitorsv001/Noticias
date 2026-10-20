@@ -49,16 +49,3 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 Acesse `http://127.0.0.1:8000/` e use `Ctrl+C` para encerrar. Os links para fontes externas exigem conexão com a internet.
 
-## Estado e limites
-
-O portal demonstra composição de páginas e interação no navegador. As matérias são conteúdo estático e não representam um serviço de atualização jornalística em tempo real. Os itens do menu direcionam a páginas específicas, sem listagens de categoria.
-
-Os 49 caminhos locais referenciados nas páginas foram encontrados na revisão documental. O comportamento do carrossel foi analisado no código, mas não foi executado em navegador nesta revisão. O CSS contém grid adaptável, porém isso não comprova a adaptação de toda a interface a telas pequenas ou sua acessibilidade.
-
-As imagens versionadas são imagens editoriais, não capturas do portal. Ainda é necessário adicionar capturas reais para apresentação visual do projeto.
-
-## Créditos e repositório
-
-Os rodapés registram Bruna Martins, Ana Luiza Lima e Heitor Vareiro como responsáveis pelo Projeto Web 2. Mantido na conta [Heitorsv001](https://github.com/Heitorsv001).
-
-Repositório original: [Heitorsv001/Noticias](https://github.com/Heitorsv001/Noticias).
